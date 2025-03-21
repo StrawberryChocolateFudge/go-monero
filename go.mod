@@ -1,3 +1,3 @@
-module gitlab.com/StrawberryChocolateFudge/go-monero
+module github.com/StrawberryChocolateFudge/go-monero
 
 go 1.16
