@@ -27,7 +27,7 @@ type ValidateAddressResponse struct {
 	Nettype string `json:"nettype"`
 
 	// True if the address is OpenAlias-formatted.
-	OpenaliasAddress bool `json:"openalias_address"`
+	OpenaliasAddress string `json:"openalias_address"`
 }
 
 // Analyzes a string to determine whether it is a valid monero wallet address and returns the result and the address specifications.
